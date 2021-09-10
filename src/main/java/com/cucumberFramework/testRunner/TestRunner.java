@@ -17,10 +17,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 						"rerun:target/cucumber-reports/rerun.txt" },
 				monochrome = true, 
 				dryRun = false)
-//tags = {};//tags = {};tags = {};//tags = {};
-//tags = {};//tags = {};tags = {};//tags = {};
-//tags = {};//tags = {};tags = {};//tags = {};
-//tags = {};//tags = {};tags = {};//tags = {};
+
 
 public class TestRunner {
 	
