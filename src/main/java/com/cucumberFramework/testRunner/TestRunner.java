@@ -15,9 +15,9 @@ import cucumber.api.testng.TestNGCucumberRunner;
 				plugin = { "pretty", "html:target/cucumber-reports/cucumber-pretty",
 						"json:target/cucumber-reports/CucumberTestReport.json", 
 						"rerun:target/cucumber-reports/rerun.txt" },
-				monochrome = true, 
+				monochrome = false,
 				dryRun = false)
-
+//tags = {}
 
 public class TestRunner {
 	
