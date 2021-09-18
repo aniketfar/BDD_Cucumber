@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1631282086024" stop="1631282164316" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+<ns2:test-suite start="1631305280067" stop="1631305373698" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <name>As a Amazon user I should be able to login and logout with valid credentials</name>
     <description type="text"></description>
     <test-cases>
-        <test-case start="1631282086120" stop="1631282109630" status="broken">
+        <test-case start="1631305280194" stop="1631305304727" status="broken">
             <name>Login into the application with valid credentials</name>
             <title>Login into the application with valid credentials</title>
             <description type="text"></description>
             <failure>
-                <message>WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@1020407c]}</message>
-                <stack-trace>org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@1020407c]}&#13;
+                <message>WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@25a218a]}</message>
+                <stack-trace>org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@25a218a]}&#13;
 	at org.openqa.selenium.json.BeanToJsonConverter.convert(BeanToJsonConverter.java:77)&#13;
 	at org.openqa.selenium.json.Json.toJson(Json.java:60)&#13;
 	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)&#13;
@@ -22,7 +22,7 @@
 	at com.cucumberFramework.pageObjects.LoginLogoutPage.clickHeadphonesLnk(LoginLogoutPage.java:143)&#13;
 	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.i_choose_Electronincs_Headphones_and_headphones_list_out(loginLogoutPageStepDefinitions.java:76)&#13;
 	at ✽.Then I choose Electronincs&gt;Headphones and headphones list out(src/test/resources/features/login/login_logout.feature:13)&#13;
-Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@1020407c]}&#13;
+Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@25a218a]}&#13;
 	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:96)&#13;
 	at org.openqa.selenium.json.BeanToJsonConverter.convert(BeanToJsonConverter.java:74)&#13;
 	at org.openqa.selenium.json.Json.toJson(Json.java:60)&#13;
@@ -38,7 +38,7 @@ Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#13;
 	at cucumber.runtime.Utils$1.call(Utils.java:40)&#13;
 	at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;
 	at cucumber.runtime.Utils.invoke(Utils.java:34)&#13;
@@ -50,11 +50,11 @@ Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[
 	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;
 	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)&#13;
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)&#13;
-	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:32)&#13;
+	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:33)&#13;
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#13;
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)&#13;
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)&#13;
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)&#13;
@@ -72,39 +72,41 @@ Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)&#13;
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)&#13;
 	at org.testng.TestNG.run(TestNG.java:1064)&#13;
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)&#13;
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)&#13;
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)&#13;
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)&#13;
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)&#13;
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)&#13;
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#13;
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#13;
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#13;
 Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
 Driver info: driver.version: RemoteWebDriver&#13;
 	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:198)&#13;
 	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:146)&#13;
 	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:134)&#13;
 	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:94)&#13;
-	... 51 more&#13;
+	... 54 more&#13;
 Caused by: java.lang.reflect.InvocationTargetException&#13;
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#13;
 	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:181)&#13;
-	... 54 more&#13;
+	... 57 more&#13;
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='nav-shop']/a"}
   (Session info: chrome=93.0.4577.63)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Aniket\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5ab9b6193917581dd39aa159dbc5078b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Aniket\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57205}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ea8f56fa14bfa872c32721a9d03f3dc
 *** Element info: {Using=xpath, value=//div[@id='nav-shop']/a}&#13;
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)&#13;
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
@@ -117,145 +119,145 @@ Session ID: 5ab9b6193917581dd39aa159dbc5078b
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)&#13;
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
-	at com.sun.proxy.$Proxy24.getWrappedElement(Unknown Source)&#13;
+	at com.sun.proxy.$Proxy22.getWrappedElement(Unknown Source)&#13;
 	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:203)&#13;
 	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:154)&#13;
 	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)&#13;
 	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)&#13;
-	... 59 more&#13;
+	... 62 more&#13;
 </stack-trace>
             </failure>
             <steps>
-                <step start="1631282092536" stop="1631282095895" status="passed">
+                <step start="1631305286504" stop="1631305290391" status="passed">
                     <name>Given I am on the Login page URL "https://www.amazon.in/"</name>
                     <title>Given I am on the Login page URL "https://www.amazon.in/"</title>
                 </step>
-                <step start="1631282095896" stop="1631282098098" status="passed">
+                <step start="1631305290392" stop="1631305292969" status="passed">
                     <name>Then I click on sign in button and wait for sign in page</name>
                     <title>Then I click on sign in button and wait for sign in page</title>
                 </step>
-                <step start="1631282098099" stop="1631282098186" status="passed">
+                <step start="1631305292970" stop="1631305293047" status="passed">
                     <name>Then I should see Sign In Page</name>
                     <title>Then I should see Sign In Page</title>
                 </step>
-                <step start="1631282098187" stop="1631282098396" status="passed">
+                <step start="1631305293048" stop="1631305293739" status="passed">
                     <name>When I enter username as "aniketfarkase51@gmail.com"</name>
                     <title>When I enter username as "aniketfarkase51@gmail.com"</title>
                 </step>
-                <step start="1631282098397" stop="1631282100005" status="passed">
+                <step start="1631305293739" stop="1631305295053" status="passed">
                     <name>And I Click on Continue button</name>
                     <title>And I Click on Continue button</title>
                 </step>
-                <step start="1631282100006" stop="1631282100145" status="passed">
+                <step start="1631305295054" stop="1631305295169" status="passed">
                     <name>And I enter password as "@nIket51!!"</name>
                     <title>And I enter password as "@nIket51!!"</title>
                 </step>
-                <step start="1631282100146" stop="1631282100342" status="passed">
+                <step start="1631305295169" stop="1631305295410" status="passed">
                     <name>And click on login button</name>
                     <title>And click on login button</title>
                 </step>
-                <step start="1631282100343" stop="1631282104125" status="passed">
+                <step start="1631305295411" stop="1631305298960" status="passed">
                     <name>Then I am logged in</name>
                     <title>Then I am logged in</title>
                 </step>
-                <step start="1631282104126" stop="1631282107156" status="passed">
+                <step start="1631305298960" stop="1631305301945" status="passed">
                     <name>And I clear cart items if any</name>
                     <title>And I clear cart items if any</title>
                 </step>
-                <step start="1631282107157" stop="1631282107502" status="broken">
+                <step start="1631305301946" stop="1631305302285" status="broken">
                     <name>Then I choose Electronincs&gt;Headphones and headphones list out</name>
                     <title>Then I choose Electronincs&gt;Headphones and headphones list out</title>
                 </step>
-                <step start="1631282107502" stop="1631282107507" status="canceled">
+                <step start="1631305302286" stop="1631305302291" status="canceled">
                     <name>Then I add first availabe headphone to cart</name>
                     <title>Then I add first availabe headphone to cart</title>
                 </step>
-                <step start="1631282107507" stop="1631282107507" status="canceled">
+                <step start="1631305302292" stop="1631305302292" status="canceled">
                     <name>Then I search "Macbook pro" and add second available item to cart</name>
                     <title>Then I search "Macbook pro" and add second available item to cart</title>
                 </step>
-                <step start="1631282107508" stop="1631282107508" status="canceled">
+                <step start="1631305302292" stop="1631305302292" status="canceled">
                     <name>Then I Select cart from home and remove the earlier added headphones</name>
                     <title>Then I Select cart from home and remove the earlier added headphones</title>
                 </step>
-                <step start="1631282107508" stop="1631282107508" status="canceled">
+                <step start="1631305302292" stop="1631305302292" status="canceled">
                     <name>Then I Reduce the Quantity of the macbook pro product to one and proceed to checkout</name>
                     <title>Then I Reduce the Quantity of the macbook pro product to one and proceed to checkout</title>
                 </step>
-                <step start="1631282107509" stop="1631282107509" status="canceled">
+                <step start="1631305302293" stop="1631305302293" status="canceled">
                     <name>And I Click on Sign out</name>
                     <title>And I Click on Sign out</title>
                 </step>
-                <step start="1631282107569" stop="1631282107592" status="canceled">
+                <step start="1631305302332" stop="1631305302362" status="canceled">
                     <name>Then I got log out from the application and land on sign in page</name>
                     <title>Then I got log out from the application and land on sign in page</title>
                 </step>
             </steps>
             <attachments>
-                <attachment title="attachment0" source="de42b093-e47d-4943-9417-719031e0b12c-attachment.png" type="image/png"/>
+                <attachment title="attachment0" source="eadf4d81-ae8c-4aaf-aa7c-4466d6c9a8f7-attachment.png" type="image/png"/>
             </attachments>
             <labels>
                 <label name="story" value="Login into the application with valid credentials"/>
                 <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
                 <label name="host" value="Aniket-Rockmaniax"/>
-                <label name="thread" value="1580@Aniket-Rockmaniax.main(1)"/>
+                <label name="thread" value="18748@Aniket-Rockmaniax.main(1)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>
-        <test-case start="1631282109632" stop="1631282130692" status="passed">
+        <test-case start="1631305304732" stop="1631305327437" status="passed">
             <name>Searching different products after login</name>
             <title>Searching different products after login</title>
             <description type="text"></description>
             <steps>
-                <step start="1631282111236" stop="1631282114460" status="passed">
+                <step start="1631305306500" stop="1631305309620" status="passed">
                     <name>Given I am on the Login page URL "https://www.amazon.in/"</name>
                     <title>Given I am on the Login page URL "https://www.amazon.in/"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1631282114460" stop="1631282116232" status="passed">
+                <step start="1631305309621" stop="1631305311464" status="passed">
                     <name>Then I click on sign in button and wait for sign in page</name>
                     <title>Then I click on sign in button and wait for sign in page</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1631282116233" stop="1631282116276" status="passed">
+                <step start="1631305311465" stop="1631305311510" status="passed">
                     <name>Then I should see Sign In Page</name>
                     <title>Then I should see Sign In Page</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1631282116277" stop="1631282116456" status="passed">
+                <step start="1631305311511" stop="1631305311720" status="passed">
                     <name>When I enter username as "aniketfarkase51@gmail.com"</name>
                     <title>When I enter username as "aniketfarkase51@gmail.com"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1631282116456" stop="1631282117621" status="passed">
+                <step start="1631305311720" stop="1631305313309" status="passed">
                     <name>And I Click on Continue button</name>
                     <title>And I Click on Continue button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1631282117621" stop="1631282117724" status="passed">
+                <step start="1631305313309" stop="1631305313432" status="passed">
                     <name>And I enter password as "@nIket51!!"</name>
                     <title>And I enter password as "@nIket51!!"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1631282117724" stop="1631282117852" status="passed">
+                <step start="1631305313432" stop="1631305313583" status="passed">
                     <name>And click on login button</name>
                     <title>And click on login button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1631282117853" stop="1631282121773" status="passed">
+                <step start="1631305313583" stop="1631305317507" status="passed">
                     <name>Then I am logged in</name>
                     <title>Then I am logged in</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1631282121773" stop="1631282129581" status="passed">
+                <step start="1631305317508" stop="1631305326105" status="passed">
                     <name>And I search different "laptops" from the search bar</name>
                     <title>And I search different "laptops" from the search bar</title>
                     <attachments/>
@@ -263,70 +265,70 @@ Session ID: 5ab9b6193917581dd39aa159dbc5078b
                 </step>
             </steps>
             <attachments>
-                <attachment title="attachment1" source="c020932e-00fc-4bb4-bfe9-d38fa699fb5e-attachment.png" type="image/png"/>
+                <attachment title="attachment1" source="32a848b8-168f-46b2-ab63-0d831be733e1-attachment.png" type="image/png"/>
             </attachments>
             <labels>
                 <label name="story" value="Searching different products after login"/>
                 <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
                 <label name="host" value="Aniket-Rockmaniax"/>
-                <label name="thread" value="1580@Aniket-Rockmaniax.main(1)"/>
+                <label name="thread" value="18748@Aniket-Rockmaniax.main(1)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>
-        <test-case start="1631282130698" stop="1631282152247" status="passed">
+        <test-case start="1631305327449" stop="1631305349785" status="passed">
             <name>Searching different products after login</name>
             <title>Searching different products after login</title>
             <description type="text"></description>
             <steps>
-                <step start="1631282132334" stop="1631282135474" status="passed">
+                <step start="1631305329157" stop="1631305332306" status="passed">
                     <name>Given I am on the Login page URL "https://www.amazon.in/"</name>
                     <title>Given I am on the Login page URL "https://www.amazon.in/"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1631282135475" stop="1631282137519" status="passed">
+                <step start="1631305332307" stop="1631305334348" status="passed">
                     <name>Then I click on sign in button and wait for sign in page</name>
                     <title>Then I click on sign in button and wait for sign in page</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1631282137520" stop="1631282137560" status="passed">
+                <step start="1631305334348" stop="1631305334390" status="passed">
                     <name>Then I should see Sign In Page</name>
                     <title>Then I should see Sign In Page</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1631282137560" stop="1631282137745" status="passed">
+                <step start="1631305334391" stop="1631305334596" status="passed">
                     <name>When I enter username as "aniketfarkase51@gmail.com"</name>
                     <title>When I enter username as "aniketfarkase51@gmail.com"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1631282137746" stop="1631282138881" status="passed">
+                <step start="1631305334597" stop="1631305336232" status="passed">
                     <name>And I Click on Continue button</name>
                     <title>And I Click on Continue button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1631282138881" stop="1631282139061" status="passed">
+                <step start="1631305336232" stop="1631305336351" status="passed">
                     <name>And I enter password as "@nIket51!!"</name>
                     <title>And I enter password as "@nIket51!!"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1631282139062" stop="1631282139317" status="passed">
+                <step start="1631305336352" stop="1631305336596" status="passed">
                     <name>And click on login button</name>
                     <title>And click on login button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1631282139317" stop="1631282142736" status="passed">
+                <step start="1631305336597" stop="1631305341001" status="passed">
                     <name>Then I am logged in</name>
                     <title>Then I am logged in</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1631282142736" stop="1631282150702" status="passed">
+                <step start="1631305341002" stop="1631305348645" status="passed">
                     <name>And I search different "pendrive" from the search bar</name>
                     <title>And I search different "pendrive" from the search bar</title>
                     <attachments/>
@@ -334,107 +336,84 @@ Session ID: 5ab9b6193917581dd39aa159dbc5078b
                 </step>
             </steps>
             <attachments>
-                <attachment title="attachment2" source="186e7e43-dc3c-4a3c-8650-31c390d28ab1-attachment.png" type="image/png"/>
+                <attachment title="attachment2" source="5e46f38b-f9c0-4a58-8623-02a262699e2c-attachment.png" type="image/png"/>
             </attachments>
             <labels>
                 <label name="story" value="Searching different products after login"/>
                 <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
                 <label name="host" value="Aniket-Rockmaniax"/>
-                <label name="thread" value="1580@Aniket-Rockmaniax.main(1)"/>
+                <label name="thread" value="18748@Aniket-Rockmaniax.main(1)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>
-        <test-case start="1631282152249" stop="1631282164313" status="broken">
+        <test-case start="1631305349790" stop="1631305373690" status="passed">
             <name>Searching different products after login</name>
             <title>Searching different products after login</title>
             <description type="text"></description>
-            <failure>
-                <message>NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Sign')]/parent::a"}
-  (Session info: chrome=93.0.4577.63)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Aniket\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 614f998df3139cc4721a6d136c875fa3
-*** Element info: {Using=xpath, value=//span[contains(text(),'Sign')]/parent::a}</message>
-                <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Sign')]/parent::a"}
-  (Session info: chrome=93.0.4577.63)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Aniket\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 614f998df3139cc4721a6d136c875fa3
-*** Element info: {Using=xpath, value=//span[contains(text(),'Sign')]/parent::a}&#13;
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)&#13;
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)&#13;
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)&#13;
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)&#13;
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)&#13;
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
-	at com.sun.proxy.$Proxy24.isDisplayed(Unknown Source)&#13;
-	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.i_am_already_logged_in(loginLogoutPageStepDefinitions.java:60)&#13;
-	at ✽.Then I am logged in(src/test/resources/features/login/login_logout.feature:30)&#13;
-</stack-trace>
-            </failure>
             <steps>
-                <step start="1631282153922" stop="1631282157197" status="passed">
+                <step start="1631305351564" stop="1631305354759" status="passed">
                     <name>Given I am on the Login page URL "https://www.amazon.in/"</name>
                     <title>Given I am on the Login page URL "https://www.amazon.in/"</title>
+                    <attachments/>
+                    <steps/>
                 </step>
-                <step start="1631282157198" stop="1631282159208" status="passed">
+                <step start="1631305354759" stop="1631305357022" status="passed">
                     <name>Then I click on sign in button and wait for sign in page</name>
                     <title>Then I click on sign in button and wait for sign in page</title>
+                    <attachments/>
+                    <steps/>
                 </step>
-                <step start="1631282159208" stop="1631282159244" status="passed">
+                <step start="1631305357023" stop="1631305357084" status="passed">
                     <name>Then I should see Sign In Page</name>
                     <title>Then I should see Sign In Page</title>
+                    <attachments/>
+                    <steps/>
                 </step>
-                <step start="1631282159244" stop="1631282159448" status="passed">
+                <step start="1631305357084" stop="1631305357337" status="passed">
                     <name>When I enter username as "aniketfarkase51@gmail.com"</name>
                     <title>When I enter username as "aniketfarkase51@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
                 </step>
-                <step start="1631282159448" stop="1631282160880" status="passed">
+                <step start="1631305357337" stop="1631305359113" status="passed">
                     <name>And I Click on Continue button</name>
                     <title>And I Click on Continue button</title>
+                    <attachments/>
+                    <steps/>
                 </step>
-                <step start="1631282160881" stop="1631282160998" status="passed">
+                <step start="1631305359114" stop="1631305359247" status="passed">
                     <name>And I enter password as "@nIket51!!"</name>
                     <title>And I enter password as "@nIket51!!"</title>
+                    <attachments/>
+                    <steps/>
                 </step>
-                <step start="1631282160999" stop="1631282161115" status="passed">
+                <step start="1631305359247" stop="1631305359497" status="passed">
                     <name>And click on login button</name>
                     <title>And click on login button</title>
+                    <attachments/>
+                    <steps/>
                 </step>
-                <step start="1631282161115" stop="1631282162912" status="broken">
+                <step start="1631305359498" stop="1631305363836" status="passed">
                     <name>Then I am logged in</name>
                     <title>Then I am logged in</title>
+                    <attachments/>
+                    <steps/>
                 </step>
-                <step start="1631282162913" stop="1631282162913" status="canceled">
+                <step start="1631305363836" stop="1631305372517" status="passed">
                     <name>And I search different "led tv" from the search bar</name>
                     <title>And I search different "led tv" from the search bar</title>
+                    <attachments/>
+                    <steps/>
                 </step>
             </steps>
             <attachments>
-                <attachment title="attachment3" source="20427189-4d14-465c-bbbe-73fd525f51d5-attachment.png" type="image/png"/>
+                <attachment title="attachment3" source="52b1a434-35d2-4f58-a5fe-1a2105c079ea-attachment.png" type="image/png"/>
             </attachments>
             <labels>
                 <label name="story" value="Searching different products after login"/>
                 <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
                 <label name="host" value="Aniket-Rockmaniax"/>
-                <label name="thread" value="1580@Aniket-Rockmaniax.main(1)"/>
+                <label name="thread" value="18748@Aniket-Rockmaniax.main(1)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>
