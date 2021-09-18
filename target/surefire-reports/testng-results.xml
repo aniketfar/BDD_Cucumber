@@ -2,19 +2,19 @@
 <testng-results total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-14T15:16:36Z" name="BDD Test Suite" finished-at="2021-08-14T15:17:58Z" duration-ms="82151">
+  <suite started-at="2021-09-10T20:21:17Z" name="BDD Test Suite" finished-at="2021-09-10T20:22:55Z" duration-ms="97705">
     <groups>
       <group name="cucumber">
-        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@3936df72]" name="feature" class="com.cucumberFramework.testRunner.TestRunner"/>
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@11f406f8]" name="feature" class="com.cucumberFramework.testRunner.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2021-08-14T15:16:36Z" name="Regression Test" finished-at="2021-08-14T15:17:58Z" duration-ms="82151">
+    <test started-at="2021-09-10T20:21:17Z" name="Regression Test" finished-at="2021-09-10T20:22:55Z" duration-ms="97705">
       <class name="com.cucumberFramework.testRunner.TestRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@3936df72]" started-at="2021-08-14T20:46:36Z" name="setUpClass" finished-at="2021-08-14T20:46:37Z" duration-ms="1384" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@11f406f8]" started-at="2021-09-11T01:51:17Z" name="setUpClass" finished-at="2021-09-11T01:51:19Z" duration-ms="1770" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@3936df72]" started-at="2021-08-14T20:46:37Z" name="feature" description="Runs cucmber Features" data-provider="features" finished-at="2021-08-14T20:47:57Z" duration-ms="80104" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@11f406f8]" started-at="2021-09-11T01:51:19Z" name="feature" description="Runs cucmber Features" data-provider="features" finished-at="2021-09-11T01:52:54Z" duration-ms="95380" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -24,16 +24,16 @@
           </params>
           <exception class="cucumber.runtime.CucumberException">
             <message>
-              <![CDATA[org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@49a6b730]}]]>
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@25a218a]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@49a6b730]}
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@25a218a]}
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:32)
+	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:33)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
@@ -57,7 +57,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@49a6b730]}
+Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@25a218a]}
 	at org.openqa.selenium.json.BeanToJsonConverter.convert(BeanToJsonConverter.java:77)
 	at org.openqa.selenium.json.Json.toJson(Json.java:60)
 	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
@@ -70,7 +70,7 @@ Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[
 	at com.cucumberFramework.pageObjects.LoginLogoutPage.clickHeadphonesLnk(LoginLogoutPage.java:143)
 	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.i_choose_Electronincs_Headphones_and_headphones_list_out(loginLogoutPageStepDefinitions.java:76)
 	at ✽.Then I choose Electronincs>Headphones and headphones list out(src/test/resources/features/login/login_logout.feature:13)
-Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@49a6b730]}
+Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@25a218a]}
 	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:96)
 	at org.openqa.selenium.json.BeanToJsonConverter.convert(BeanToJsonConverter.java:74)
 	at org.openqa.selenium.json.Json.toJson(Json.java:60)
@@ -86,7 +86,7 @@ Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at cucumber.runtime.Utils$1.call(Utils.java:40)
 	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
 	at cucumber.runtime.Utils.invoke(Utils.java:34)
@@ -98,11 +98,11 @@ Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[
 	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
 	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:32)
+	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:33)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
@@ -128,7 +128,7 @@ Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:198)
 	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:146)
@@ -139,23 +139,22 @@ Caused by: java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:181)
 	... 57 more
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='nav-shop']/a"}
-  (Session info: chrome=92.0.4515.131)
+  (Session info: chrome=93.0.4577.63)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Aniket\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2f0f1a913b5353d81b9cdf7a45d0b2b2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Aniket\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57205}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ea8f56fa14bfa872c32721a9d03f3dc
 *** Element info: {Using=xpath, value=//div[@id='nav-shop']/a}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -180,7 +179,7 @@ Session ID: 2f0f1a913b5353d81b9cdf7a45d0b2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@3936df72]" started-at="2021-08-14T20:47:57Z" name="testDownClass" finished-at="2021-08-14T20:47:58Z" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@11f406f8]" started-at="2021-09-11T01:52:55Z" name="testDownClass" finished-at="2021-09-11T01:52:55Z" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDownClass -->

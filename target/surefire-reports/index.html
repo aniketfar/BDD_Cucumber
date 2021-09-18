@@ -129,10 +129,10 @@
                   </a> <!-- feature(As a Amazon user I should be able to login and logout with valid credentials) -->
                   <span class="method-name">feature</span>
                   <span class="parameters">(As a Amazon user I should be able to login and logout with valid credentials)</span>
-                  <div class="stack-trace">cucumber.runtime.CucumberException: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@49a6b730]}
+                  <div class="stack-trace">cucumber.runtime.CucumberException: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@25a218a]}
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:32)
-Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@49a6b730]}
+	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:33)
+Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@25a218a]}
 	at org.openqa.selenium.json.BeanToJsonConverter.convert(BeanToJsonConverter.java:77)
 	at org.openqa.selenium.json.Json.toJson(Json.java:60)
 	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
@@ -145,7 +145,7 @@ Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[
 	at com.cucumberFramework.pageObjects.LoginLogoutPage.clickHeadphonesLnk(LoginLogoutPage.java:143)
 	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.i_choose_Electronincs_Headphones_and_headphones_list_out(loginLogoutPageStepDefinitions.java:76)
 	at ✽.Then I choose Electronincs&gt;Headphones and headphones list out(src/test/resources/features/login/login_logout.feature:13)
-Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@49a6b730]}
+Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@25a218a]}
 	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:96)
 	at org.openqa.selenium.json.BeanToJsonConverter.convert(BeanToJsonConverter.java:74)
 	at org.openqa.selenium.json.Json.toJson(Json.java:60)
@@ -169,9 +169,9 @@ Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[
 	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
 	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:32)
+	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:33)
 Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;ANIKET-ROCKMANI&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+System info: host: &apos;ANIKET-ROCKMANI&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:198)
 	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:146)
@@ -181,13 +181,13 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:181)
 	... 57 more
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;nav-shop&apos;]/a&quot;}
-  (Session info: chrome=92.0.4515.131)
+  (Session info: chrome=93.0.4577.63)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;ANIKET-ROCKMANI&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+System info: host: &apos;ANIKET-ROCKMANI&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Aniket\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2f0f1a913b5353d81b9cdf7a45d0b2b2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Aniket\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57205}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ea8f56fa14bfa872c32721a9d03f3dc
 *** Element info: {Using=xpath, value=//div[@id=&apos;nav-shop&apos;]/a}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -207,7 +207,7 @@ Session ID: 2f0f1a913b5353d81b9cdf7a45d0b2b2
 	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
 	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
 	... 62 more
-... Removed 69 stack frames
+... Removed 68 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (Runs cucmber Features)                  </em>
@@ -279,7 +279,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feature')
 data.setCell(0, 2, 'com.cucumberFramework.testRunner.TestRunner')
-data.setCell(0, 3, 80104);
+data.setCell(0, 3, 95380);
 window.suiteTableData['BDD_Test_Suite']= { tableData: data, tableDiv: 'times-div-BDD_Test_Suite'}
 return data;
 }
@@ -319,11 +319,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">feature(As a Amazon user I should be able to login and logout with valid credentials)</span>
-                <span class="method-start">1766 ms</span>
+                <span class="method-start">2223 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">testDownClass</span>
-                <span class="method-start">81904 ms</span>
+                <span class="method-start">97628 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
