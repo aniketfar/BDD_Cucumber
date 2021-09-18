@@ -1,30 +1,36 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 101.018 sec <<< FAILURE! - in TestSuite
-feature(com.cucumberFramework.testRunner.TestRunner)  Time elapsed: 95.403 sec  <<< FAILURE!
-cucumber.runtime.CucumberException: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@25a218a]}
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 103.274 s <<< FAILURE! - in TestSuite
+com.cucumberFramework.testRunner.TestRunner.feature[As a Amazon user I should be able to login and logout with valid credentials](1)  Time elapsed: 98.321 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9432990902d6360f3c0e69d9980c0ee, actions {actions=[org.openqa.selenium.interactions.Sequence@fab91f]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Aniket\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61105/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f9432990902d6360f3c0e69d9980c0ee
 	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:33)
-Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@25a218a]}
-Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@25a218a]}
-	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:33)
-Caused by: org.openqa.selenium.WebDriverException: 
+Caused by: org.openqa.selenium.json.JsonException: 
 java.lang.reflect.InvocationTargetException
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
-Driver info: driver.version: RemoteWebDriver
-	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:33)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9432990902d6360f3c0e69d9980c0ee, actions {actions=[org.openqa.selenium.interactions.Sequence@fab91f]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Aniket\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61105/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f9432990902d6360f3c0e69d9980c0ee
 Caused by: java.lang.reflect.InvocationTargetException
 	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:33)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='nav-shop']/a"}
-  (Session info: chrome=93.0.4577.63)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Aniket\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57205}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5ea8f56fa14bfa872c32721a9d03f3dc
-*** Element info: {Using=xpath, value=//div[@id='nav-shop']/a}
+Command: [f9432990902d6360f3c0e69d9980c0ee, findElement {using=xpath, value=//div[@id='nav-shop']/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Aniket\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61105/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f9432990902d6360f3c0e69d9980c0ee
 	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:33)
 

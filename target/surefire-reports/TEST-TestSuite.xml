@@ -1,147 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="101.018" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="103.274" tests="1" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="F:\BDD cucumber\Cucumber-BDD-Automation-Framework-master"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="US"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="F:\BDD cucumber\Cucumber-BDD-Automation-Framework-master"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\Aniket\AppData\Local\Temp\"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="F:\Maven\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\Maven\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\Aniket\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Aniket\AppData\Local\Programs\Python\Python39\;C:\Users\Aniket\AppData\Local\Microsoft\WindowsApps;C:\Users\Aniket\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.1\bin;C:\WebDriver\bin;C:\Users\Aniket\AppData\Roaming\npm;C:\adb;C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\Maven\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\Aniket\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Aniket\AppData\Local\Programs\Python\Python39\;C:\Users\Aniket\AppData\Local\Microsoft\WindowsApps;C:\Users\Aniket\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.1\bin;C:\WebDriver\bin;C:\Users\Aniket\AppData\Roaming\npm;C:\Program Files\Java\jdk-11.0.12;;."/>
-    <property name="maven.conf" value="F:\Maven\apache-maven-3.6.3\bin\../conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="55.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="F:\Maven\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\Aniket"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
-    <property name="user.name" value="Aniket"/>
-    <property name="java.class.path" value="F:\Maven\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="F:\BDD cucumber\Cucumber-BDD-Automation-Framework-master/src/test/resources/drivers/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\BDD cucumber\Cucumber-BDD-Automation-Framework-master\target\test-classes;F:\BDD cucumber\Cucumber-BDD-Automation-Framework-master\target\classes;C:\Users\Aniket\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0-RC1\jakarta.xml.bind-api-4.0.0-RC1.jar;C:\Users\Aniket\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0-RC1\jakarta.activation-api-2.1.0-RC1.jar;C:\Users\Aniket\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Aniket\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Aniket\.m2\repository\org\glassfish\jaxb\jaxb-runtime\3.0.2\jaxb-runtime-3.0.2.jar;C:\Users\Aniket\.m2\repository\com\sun\activation\jakarta.activation\2.0.1\jakarta.activation-2.0.1.jar;C:\Users\Aniket\.m2\repository\org\glassfish\jaxb\jaxb-core\3.0.2\jaxb-core-3.0.2.jar;C:\Users\Aniket\.m2\repository\org\glassfish\jaxb\txw2\3.0.2\txw2-3.0.2.jar;C:\Users\Aniket\.m2\repository\com\sun\istack\istack-commons-runtime\4.0.1\istack-commons-runtime-4.0.1.jar;C:\Users\Aniket\.m2\repository\ru\yandex\qatools\allure\allure-cucumber-jvm-adaptor\1.6.4\allure-cucumber-jvm-adaptor-1.6.4.jar;C:\Users\Aniket\.m2\repository\ru\yandex\qatools\allure\allure-java-aspects\1.5.2\allure-java-aspects-1.5.2.jar;C:\Users\Aniket\.m2\repository\ru\yandex\qatools\allure\allure-java-adaptor-api\1.5.2\allure-java-adaptor-api-1.5.2.jar;C:\Users\Aniket\.m2\repository\ru\yandex\qatools\allure\allure-java-annotations\1.5.2\allure-java-annotations-1.5.2.jar;C:\Users\Aniket\.m2\repository\org\apache\tika\tika-core\1.7\tika-core-1.7.jar;C:\Users\Aniket\.m2\repository\org\aspectj\aspectjrt\1.8.3\aspectjrt-1.8.3.jar;C:\Users\Aniket\.m2\repository\ru\yandex\qatools\allure\allure-commons\1.5.2\allure-commons-1.5.2.jar;C:\Users\Aniket\.m2\repository\ru\yandex\qatools\allure\allure-model\1.5.2\allure-model-1.5.2.jar;C:\Users\Aniket\.m2\repository\org\jvnet\jaxb2_commons\jaxb2-basics-runtime\0.9.3\jaxb2-basics-runtime-0.9.3.jar;C:\Users\Aniket\.m2\repository\ru\qatools\commons\properties\2.0.RC5\properties-2.0.RC5.jar;C:\Users\Aniket\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\Aniket\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Aniket\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Aniket\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Aniket\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Aniket\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Aniket\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\Aniket\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Aniket\.m2\repository\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar;C:\Users\Aniket\.m2\repository\io\cucumber\cucumber-java\1.2.6\cucumber-java-1.2.6.jar;C:\Users\Aniket\.m2\repository\io\cucumber\cucumber-core\1.2.6\cucumber-core-1.2.6.jar;C:\Users\Aniket\.m2\repository\io\cucumber\cucumber-testng\1.2.6\cucumber-testng-1.2.6.jar;C:\Users\Aniket\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\Aniket\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\Aniket\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-rc-1\selenium-java-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-rc-1\selenium-api-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-rc-1\selenium-chrome-driver-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\com\google\auto\service\auto-service-annotations\1.0\auto-service-annotations-1.0.jar;C:\Users\Aniket\.m2\repository\com\google\auto\service\auto-service\1.0\auto-service-1.0.jar;C:\Users\Aniket\.m2\repository\com\google\auto\auto-common\1.0\auto-common-1.0.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-rc-1\selenium-chromium-driver-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-rc-1\selenium-devtools-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-rc-1\selenium-http-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-rc-1\selenium-json-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.0.0-rc-1\selenium-devtools-v85-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v92\4.0.0-rc-1\selenium-devtools-v92-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v93\4.0.0-rc-1\selenium-devtools-v93-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-rc-1\selenium-edge-driver-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-rc-1\selenium-firefox-driver-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-rc-1\selenium-firefox-xpi-driver-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-rc-1\selenium-ie-driver-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-rc-1\selenium-opera-driver-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-rc-1\selenium-remote-driver-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-buffer\4.1.67.Final\netty-buffer-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-codec-http\4.1.67.Final\netty-codec-http-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-codec\4.1.67.Final\netty-codec-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-handler\4.1.67.Final\netty-handler-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-common\4.1.67.Final\netty-common-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-transport-native-epoll\4.1.67.Final\netty-transport-native-epoll-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.67.Final\netty-transport-native-kqueue-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.67.Final\netty-transport-native-unix-common-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-transport\4.1.67.Final\netty-transport-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-resolver\4.1.67.Final\netty-resolver-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-api\1.5.0\opentelemetry-api-1.5.0.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-context\1.5.0\opentelemetry-context-1.5.0.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.5.0\opentelemetry-exporter-logging-1.5.0.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.5.0-alpha\opentelemetry-sdk-metrics-1.5.0-alpha.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.5.0\opentelemetry-sdk-common-1.5.0.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.5.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.5.0-alpha.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.5.0\opentelemetry-sdk-trace-1.5.0.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.5.0-alpha\opentelemetry-api-metrics-1.5.0-alpha.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.5.0\opentelemetry-sdk-1.5.0.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.5.0-alpha\opentelemetry-semconv-1.5.0-alpha.jar;C:\Users\Aniket\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Aniket\.m2\repository\net\bytebuddy\byte-buddy\1.11.13\byte-buddy-1.11.13.jar;C:\Users\Aniket\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Aniket\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Aniket\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Aniket\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Aniket\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-rc-1\selenium-safari-driver-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-rc-1\selenium-support-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\net\masterthought\cucumber-reporting\5.6.0\cucumber-reporting-5.6.0.jar;C:\Users\Aniket\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\Aniket\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\Aniket\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\Aniket\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\Users\Aniket\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\Aniket\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Aniket\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Aniket\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar;C:\Users\Aniket\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\Aniket\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\Aniket\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\Aniket\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\Aniket\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Aniket\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Aniket\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Aniket\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\Aniket\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\Aniket\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Aniket\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20200713.1\owasp-java-html-sanitizer-20200713.1.jar;C:\Users\Aniket\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\Aniket\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Aniket\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Aniket\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\Aniket\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Aniket\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.12"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin"/>
+    <property name="sun.java.command" value="C:\Users\Aniket\AppData\Local\Temp\surefire5915303584781801732\surefirebooter10690238005209202009.jar C:\Users\Aniket\AppData\Local\Temp\surefire5915303584781801732 2021-09-18T16-12-49_229-jvmRun1 surefire2735771592522106693tmp surefire_09036610804579570113tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\BDD cucumber\Cucumber-BDD-Automation-Framework-master\target\test-classes;F:\BDD cucumber\Cucumber-BDD-Automation-Framework-master\target\classes;C:\Users\Aniket\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0-RC1\jakarta.xml.bind-api-4.0.0-RC1.jar;C:\Users\Aniket\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0-RC1\jakarta.activation-api-2.1.0-RC1.jar;C:\Users\Aniket\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Aniket\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Aniket\.m2\repository\org\glassfish\jaxb\jaxb-runtime\3.0.2\jaxb-runtime-3.0.2.jar;C:\Users\Aniket\.m2\repository\com\sun\activation\jakarta.activation\2.0.1\jakarta.activation-2.0.1.jar;C:\Users\Aniket\.m2\repository\org\glassfish\jaxb\jaxb-core\3.0.2\jaxb-core-3.0.2.jar;C:\Users\Aniket\.m2\repository\org\glassfish\jaxb\txw2\3.0.2\txw2-3.0.2.jar;C:\Users\Aniket\.m2\repository\com\sun\istack\istack-commons-runtime\4.0.1\istack-commons-runtime-4.0.1.jar;C:\Users\Aniket\.m2\repository\ru\yandex\qatools\allure\allure-cucumber-jvm-adaptor\1.6.4\allure-cucumber-jvm-adaptor-1.6.4.jar;C:\Users\Aniket\.m2\repository\ru\yandex\qatools\allure\allure-java-aspects\1.5.2\allure-java-aspects-1.5.2.jar;C:\Users\Aniket\.m2\repository\ru\yandex\qatools\allure\allure-java-adaptor-api\1.5.2\allure-java-adaptor-api-1.5.2.jar;C:\Users\Aniket\.m2\repository\ru\yandex\qatools\allure\allure-java-annotations\1.5.2\allure-java-annotations-1.5.2.jar;C:\Users\Aniket\.m2\repository\org\apache\tika\tika-core\1.7\tika-core-1.7.jar;C:\Users\Aniket\.m2\repository\org\aspectj\aspectjrt\1.8.3\aspectjrt-1.8.3.jar;C:\Users\Aniket\.m2\repository\ru\yandex\qatools\allure\allure-commons\1.5.2\allure-commons-1.5.2.jar;C:\Users\Aniket\.m2\repository\ru\yandex\qatools\allure\allure-model\1.5.2\allure-model-1.5.2.jar;C:\Users\Aniket\.m2\repository\org\jvnet\jaxb2_commons\jaxb2-basics-runtime\0.9.3\jaxb2-basics-runtime-0.9.3.jar;C:\Users\Aniket\.m2\repository\ru\qatools\commons\properties\2.0.RC5\properties-2.0.RC5.jar;C:\Users\Aniket\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\Aniket\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Aniket\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Aniket\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Aniket\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Aniket\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Aniket\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\Aniket\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Aniket\.m2\repository\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar;C:\Users\Aniket\.m2\repository\io\cucumber\cucumber-java\1.2.6\cucumber-java-1.2.6.jar;C:\Users\Aniket\.m2\repository\io\cucumber\cucumber-core\1.2.6\cucumber-core-1.2.6.jar;C:\Users\Aniket\.m2\repository\io\cucumber\cucumber-testng\1.2.6\cucumber-testng-1.2.6.jar;C:\Users\Aniket\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\Aniket\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\Aniket\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-rc-1\selenium-java-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-rc-1\selenium-api-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-rc-1\selenium-chrome-driver-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\com\google\auto\service\auto-service-annotations\1.0\auto-service-annotations-1.0.jar;C:\Users\Aniket\.m2\repository\com\google\auto\service\auto-service\1.0\auto-service-1.0.jar;C:\Users\Aniket\.m2\repository\com\google\auto\auto-common\1.0\auto-common-1.0.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-rc-1\selenium-chromium-driver-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-rc-1\selenium-devtools-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-rc-1\selenium-http-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-rc-1\selenium-json-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.0.0-rc-1\selenium-devtools-v85-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v92\4.0.0-rc-1\selenium-devtools-v92-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v93\4.0.0-rc-1\selenium-devtools-v93-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-rc-1\selenium-edge-driver-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-rc-1\selenium-firefox-driver-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-rc-1\selenium-firefox-xpi-driver-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-rc-1\selenium-ie-driver-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-rc-1\selenium-opera-driver-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-rc-1\selenium-remote-driver-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-buffer\4.1.67.Final\netty-buffer-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-codec-http\4.1.67.Final\netty-codec-http-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-codec\4.1.67.Final\netty-codec-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-handler\4.1.67.Final\netty-handler-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-common\4.1.67.Final\netty-common-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-transport-native-epoll\4.1.67.Final\netty-transport-native-epoll-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.67.Final\netty-transport-native-kqueue-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.67.Final\netty-transport-native-unix-common-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-transport\4.1.67.Final\netty-transport-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-resolver\4.1.67.Final\netty-resolver-4.1.67.Final.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-api\1.5.0\opentelemetry-api-1.5.0.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-context\1.5.0\opentelemetry-context-1.5.0.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.5.0\opentelemetry-exporter-logging-1.5.0.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.5.0-alpha\opentelemetry-sdk-metrics-1.5.0-alpha.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.5.0\opentelemetry-sdk-common-1.5.0.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.5.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.5.0-alpha.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.5.0\opentelemetry-sdk-trace-1.5.0.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.5.0-alpha\opentelemetry-api-metrics-1.5.0-alpha.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.5.0\opentelemetry-sdk-1.5.0.jar;C:\Users\Aniket\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.5.0-alpha\opentelemetry-semconv-1.5.0-alpha.jar;C:\Users\Aniket\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Aniket\.m2\repository\net\bytebuddy\byte-buddy\1.11.13\byte-buddy-1.11.13.jar;C:\Users\Aniket\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Aniket\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Aniket\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Aniket\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Aniket\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Aniket\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-rc-1\selenium-safari-driver-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-rc-1\selenium-support-4.0.0-rc-1.jar;C:\Users\Aniket\.m2\repository\net\masterthought\cucumber-reporting\5.6.0\cucumber-reporting-5.6.0.jar;C:\Users\Aniket\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\Aniket\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\Aniket\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\Aniket\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\Users\Aniket\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\Aniket\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Aniket\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Aniket\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar;C:\Users\Aniket\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\Aniket\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\Aniket\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\Aniket\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\Aniket\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Aniket\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Aniket\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Aniket\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\Aniket\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\Aniket\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Aniket\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20200713.1\owasp-java-html-sanitizer-20200713.1.jar;C:\Users\Aniket\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\Aniket\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Aniket\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Aniket\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\Aniket\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Aniket\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Aniket"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="11.0.12"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
-    <property name="maven.home" value="F:\Maven\apache-maven-3.6.3\bin\.."/>
-    <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2021-07-20"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.12"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="F:\BDD cucumber\Cucumber-BDD-Automation-Framework-master"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Aniket\AppData\Local\Temp\surefire5915303584781801732\surefirebooter10690238005209202009.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
+    <property name="user.name" value="Aniket"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.nio.ch.bugLevel" value=""/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="java.vendor.version" value="18.9"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="localRepository" value="C:\Users\Aniket\.m2\repository"/>
+    <property name="cucumber.options" value="--plugin ru.yandex.qatools.allure.cucumberjvm.AllureReporter"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Aniket\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="F:\BDD cucumber\Cucumber-BDD-Automation-Framework-master"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\Maven\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\Aniket\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Aniket\AppData\Local\Programs\Python\Python39\;C:\Users\Aniket\AppData\Local\Microsoft\WindowsApps;C:\Users\Aniket\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.1\bin;C:\WebDriver\bin;C:\Users\Aniket\AppData\Roaming\npm;C:\adb;C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\Maven\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\Aniket\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Aniket\AppData\Local\Programs\Python\Python39\;C:\Users\Aniket\AppData\Local\Microsoft\WindowsApps;C:\Users\Aniket\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.1\bin;C:\WebDriver\bin;C:\Users\Aniket\AppData\Roaming\npm;C:\Program Files\Java\jdk-11.0.12;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.1\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="feature" classname="com.cucumberFramework.testRunner.TestRunner" time="95.403">
-    <failure message="org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@25a218a]}" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@25a218a]}
+  <testcase name="feature[As a Amazon user I should be able to login and logout with valid credentials](1)" classname="com.cucumberFramework.testRunner.TestRunner" time="98.321">
+    <failure message="org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException&#10;Build info: version: &apos;4.0.0-rc-1&apos;, revision: &apos;bc5511cbda&apos;&#10;System info: host: &apos;ANIKET-ROCKMANI&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [f9432990902d6360f3c0e69d9980c0ee, actions {actions=[org.openqa.selenium.interactions.Sequence@fab91f]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Aniket\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61105/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f9432990902d6360f3c0e69d9980c0ee" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: 
+org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9432990902d6360f3c0e69d9980c0ee, actions {actions=[org.openqa.selenium.interactions.Sequence@fab91f]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Aniket\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61105/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f9432990902d6360f3c0e69d9980c0ee
 	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:33)
-Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@25a218a]}
-Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@25a218a]}
-	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:33)
-Caused by: org.openqa.selenium.WebDriverException: 
+Caused by: org.openqa.selenium.json.JsonException: 
 java.lang.reflect.InvocationTargetException
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
-Driver info: driver.version: RemoteWebDriver
-	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:33)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9432990902d6360f3c0e69d9980c0ee, actions {actions=[org.openqa.selenium.interactions.Sequence@fab91f]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Aniket\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61105/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f9432990902d6360f3c0e69d9980c0ee
 Caused by: java.lang.reflect.InvocationTargetException
 	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:33)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='nav-shop']/a"}
-  (Session info: chrome=93.0.4577.63)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'ANIKET-ROCKMANI', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Aniket\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57205}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5ea8f56fa14bfa872c32721a9d03f3dc
-*** Element info: {Using=xpath, value=//div[@id='nav-shop']/a}
+Command: [f9432990902d6360f3c0e69d9980c0ee, findElement {using=xpath, value=//div[@id='nav-shop']/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Aniket\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61105/devtoo..., se:cdpVersion: 93.0.4577.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f9432990902d6360f3c0e69d9980c0ee
 	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:33)
-</failure>
-    <system-out><![CDATA[2021-09-11 01:09:738 INFO  WaitHelper :21 - waiting for element visibilityOf..
-2021-09-11 01:09:968 INFO  WaitHelper :24 - element is visible..
-2021-09-11 01:09:954 INFO  WaitHelper :21 - waiting for element visibilityOf..
-2021-09-11 01:09:52 INFO  WaitHelper :24 - element is visible..
-2021-09-11 01:09:362 INFO  ServiceHooks :34 - Login into the application with valid credentials is Failed
-2021-09-11 01:09:352 INFO  WaitHelper :21 - waiting for element visibilityOf..
-2021-09-11 01:09:464 INFO  WaitHelper :24 - element is visible..
-2021-09-11 01:09:239 INFO  WaitHelper :21 - waiting for element visibilityOf..
-2021-09-11 01:09:308 INFO  WaitHelper :24 - element is visible..
-2021-09-11 01:09:105 INFO  ServiceHooks :43 - Searching different products after login is pass
-2021-09-11 01:09:244 INFO  WaitHelper :21 - waiting for element visibilityOf..
-2021-09-11 01:09:346 INFO  WaitHelper :24 - element is visible..
-2021-09-11 01:09:131 INFO  WaitHelper :21 - waiting for element visibilityOf..
-2021-09-11 01:09:232 INFO  WaitHelper :24 - element is visible..
-2021-09-11 01:09:645 INFO  ServiceHooks :43 - Searching different products after login is pass
-2021-09-11 01:09:851 INFO  WaitHelper :21 - waiting for element visibilityOf..
-2021-09-11 01:09:22 INFO  WaitHelper :24 - element is visible..
-2021-09-11 01:09:24 INFO  WaitHelper :21 - waiting for element visibilityOf..
-2021-09-11 01:09:112 INFO  WaitHelper :24 - element is visible..
-2021-09-11 01:09:517 INFO  ServiceHooks :43 - Searching different products after login is pass
+]]></failure>
+    <system-out><![CDATA[2021-09-18 16:09:220 INFO  WaitHelper :22 - waiting for element visibilityOf..
+2021-09-18 16:09:439 INFO  WaitHelper :25 - element is visible..
+2021-09-18 16:09:382 INFO  WaitHelper :22 - waiting for element visibilityOf..
+2021-09-18 16:09:439 INFO  WaitHelper :25 - element is visible..
+2021-09-18 16:09:705 INFO  ServiceHooks :34 - Login into the application with valid credentials is Failed
+2021-09-18 16:09:508 INFO  WaitHelper :22 - waiting for element visibilityOf..
+2021-09-18 16:09:629 INFO  WaitHelper :25 - element is visible..
+2021-09-18 16:09:279 INFO  WaitHelper :22 - waiting for element visibilityOf..
+2021-09-18 16:09:326 INFO  WaitHelper :25 - element is visible..
+2021-09-18 16:09:874 INFO  ServiceHooks :43 - Searching different products after login is pass
+2021-09-18 16:09:144 INFO  WaitHelper :22 - waiting for element visibilityOf..
+2021-09-18 16:09:247 INFO  WaitHelper :25 - element is visible..
+2021-09-18 16:09:705 INFO  WaitHelper :22 - waiting for element visibilityOf..
+2021-09-18 16:09:761 INFO  WaitHelper :25 - element is visible..
+2021-09-18 16:09:440 INFO  ServiceHooks :43 - Searching different products after login is pass
+2021-09-18 16:09:56 INFO  WaitHelper :22 - waiting for element visibilityOf..
+2021-09-18 16:09:166 INFO  WaitHelper :25 - element is visible..
+2021-09-18 16:09:673 INFO  WaitHelper :22 - waiting for element visibilityOf..
+2021-09-18 16:09:727 INFO  WaitHelper :25 - element is visible..
+2021-09-18 16:09:993 INFO  ServiceHooks :43 - Searching different products after login is pass
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 36265
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 11903
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1631305285.603][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
-Sep 11, 2021 1:51:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1631961786.710][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 18, 2021 4:13:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 45774
+Sep 18, 2021 4:13:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 93
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 48866
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1631305306.220][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
-Sep 11, 2021 1:51:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1631961808.949][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 18, 2021 4:13:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 8140
+Sep 18, 2021 4:13:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 93
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 38942
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1631305328.816][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
-Sep 11, 2021 1:52:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1631961830.921][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 18, 2021 4:13:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 33989
+Sep 18, 2021 4:13:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 93
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 8974
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1631305351.285][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
-Sep 11, 2021 1:52:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1631961853.426][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 18, 2021 4:14:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+Sep 18, 2021 4:14:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 93
 ]]></system-err>
   </testcase>
 </testsuite>
